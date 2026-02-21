@@ -15,10 +15,6 @@ import Paper from '@mui/material/Paper';
 import '../src/portfolio.css'
 import CollapsibleTable from './portfolio'
 import MyLogo from 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxb35AXLnOCcL7Ls33mYkcawhiimkCcNj1Fg&s'
-import fLogo from '../src/facebook.png'
-import gLogo from '../src/gmail.png'
-import lLogo from '../src/Linkedin.png'
-import yLogo from '../src/yahoo.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
