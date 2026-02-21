@@ -1,0 +1,15 @@
+
+
+.page {
+    /* Hide all sections by default */
+    display: block; 
+    padding: 20px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    
+}
+
+.page:target {
+    /* Show only the section that is targeted by the URL hash */
+    display: block;
+}

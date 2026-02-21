@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 4em;
+  text-align: center;
+  display: flex
+  
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+ body {
+            margin: 0;
+            font-family: var(--font-inter),ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+            display: flex; /* Use flexbox for layout */
+            height: auto; /* Make the body take full viewport height */
+        }
+
+        .left-section {
+            width: 30%; /* Adjust width as needed */
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box; /* Include padding in width */
+            overflow-y: hidden; /* Prevent scrolling in the left section */
+            color: white;
+        }
+
+        .right-section {
+            width: 70%; /* Adjust width as needed */
+            background-color: #e0e0e0;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto; /* Enable vertical scrolling for the right section */
+            /* Set a fixed height or max-height if the content overflows naturally */
+            /* For example, if you want it to fill the remaining height: */
+            flex-grow: 1; /* Allow it to grow and fill available space */
+            color: white;
+        }
+
+        .content-placeholder {
+            height: 1500px; /* Example content to force scrolling in the right section */
+            background-color: #c0c0c0;
+            margin-top: 10px;
+            padding: 15px;
+        }
+        .long-content {
+            height: 200vh; /* Make content taller than viewport to trigger scroll */
+            background: #141425;
+            padding: 20px;
+            color: white;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        
