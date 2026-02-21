@@ -14,7 +14,6 @@ import Paper from '@mui/material/Paper';
 
 import '../src/portfolio.css'
 import CollapsibleTable from './portfolio'
-import MyLogo from 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxb35AXLnOCcL7Ls33mYkcawhiimkCcNj1Fg&s'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -46,7 +45,7 @@ function App() {
       <div class="container" style={{backgroundColor:"#141425"}}>
       <div class="left-section"style={{backgroundColor:"#141425"}}>
         <div style={{backgroundColor:"#141425"}}>
-          <img src={MyLogo} alt="" height="100px" width="100px"/>
+          
           <h2 color='White'> Anand Muthunayagam</h2>
           <h3> Test Automation/Full Stack Development</h3>
           <br></br>
