@@ -75,10 +75,7 @@ function App() {
         <br></br>
         <br></br>
         <div>
-          <img src={fLogo} alt="https://www.facebook.com/anand.muthunayagam/" href="https://www.facebook.com/anand.muthunayagam/" height="25px" width="25px" style={{margin:"10px"}}/>
-          <img src={gLogo} alt="" height="25px" width="25px" style={{margin:"10px"}}/>
-          <img src={lLogo} alt="" height="25px" width="25px" style={{margin:"10px"}}/>
-          <img src={yLogo} alt="" height="25px" width="25px" style={{margin:"10px"}}/>
+          
         </div>
       </div>
       <div class="right-section" style={{backgroundColor:"#141425",color:"white"}}>
